@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Linux Diary 4.0</title>
+		<style>
+			html,
+			body {
+				font-family: "Ubuntu", sans-serif;
+				max-width: 100vw;
+				max-height: 100vh;
+				overflow: hidden;
+				margin: 0;
+				padding: 0;
+				cursor: grab;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Welcome to the world of <strike>Tuxes 🐧</strike> Linux Diary -->
+		<div class="loader" id="loader">
+			<div class="book">
+				<div class="book__pg-shadow"></div>
+				<div class="book__pg"></div>
+				<div class="book__pg book__pg--2"></div>
+				<div class="book__pg book__pg--3"></div>
+				<div class="book__pg book__pg--4"></div>
+				<div class="book__pg book__pg--5"></div>
+			</div>
+			<div class="progress_bar">
+				<label>Linux Diary Loading</label>
+				<progress
+					class="book_progress"
+					id="progress"
+					value="0"
+					max="100"></progress>
+			</div>
+		</div>
+		<div id="container">
+			<h1 class="content drag" id="introduction">
+				<img id="hand" src="./grab.svg" alt="" />
+				Drag to Explore
+			</h1>
+			<h1 class="content" id="defination">
+				Teaching you what this education system <br />
+				missed on..🎓
+			</h1>
+			<h1 class="content" id="schedule">
+				A 3 day event to make you fall in love with Linux💖
+				<a href="./register.html">
+					<button>Register here</button>
+				</a>
+			</h1>
+		</div>
+		<script src="main.js" type="module"></script>
+	</body>
+</html>
